@@ -80,9 +80,9 @@ bd.especialistas.createIndex({ c: 1 }, { unique: true, name: 'correo_unico' });
 
 if (bd.clientas.countDocuments() === 0) {
   bd.clientas.insertMany([
-    { id: 1, n: 'María Fernanda López', c: 'maria.lopez@correo.com',   t: '6671234567' },
-    { id: 2, n: 'Ana Sofía Ramírez',    c: 'ana.ramirez@correo.com',   t: '6679876543' },
-    { id: 3, n: 'Karla Beltrán',        c: 'karla.beltran@correo.com', t: '6675554433' }
+    { id: 1, n: 'sofia reyes', c: 'sofiareyes@correo.com',   t: '6671234567' },
+    { id: 2, n: 'josselyn angulo',    c: 'josselyn.angulo@correo.com',   t: '6679876543' },
+    { id: 3, n: 'Anethzy Beltrán',        c: 'anethzy.beltran@correo.com', t: '6675554433' }
   ]);
   print('Se insertaron 3 clientas.');
 } else {
